@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": false,
+    "lib": ["es5", "es6", "dom"],
+    "types": ["google-apps-script"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
