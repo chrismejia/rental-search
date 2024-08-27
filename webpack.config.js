@@ -20,5 +20,9 @@ module.exports = {
       },
     ],
   },
-  plugins: [new GasPlugin()],
+  plugins: [
+    new GasPlugin({
+      autoGlobalExportsFiles: ["**/*.ts"],
+    }),
+  ],
 };
