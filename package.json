@@ -1,7 +1,7 @@
 {
   "name": "rental-search",
   "version": "1.0.0",
-  "main": "Code.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
@@ -24,11 +24,15 @@
   "homepage": "https://github.com/chrismejia/rental-search#readme",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/eslint__js": "^8.42.3",
     "@types/google-apps-script": "^1.0.83",
-    "gas-webpack-plugin": "^2.6.0",
+    "eslint": "^9.9.1",
+    "globals": "^15.9.0",
+    "prettier": "3.3.3",
     "ts-loader": "^9.5.1",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^5.5.4",
-    "webpack": "^5.94.0",
-    "webpack-cli": "^5.1.4"
+    "typescript-eslint": "^8.3.0"
   }
 }
