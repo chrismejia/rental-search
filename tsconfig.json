@@ -1,14 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "strict": true,
-    "noImplicitAny": true,
-    "outDir": "dist",
-    "rootDir": "src",
-    "sourceMap": false,
-    "lib": ["ESNext"],
-    "types": ["google-apps-script"],
-    "experimentalDecorators": true
+    "lib": ["esnext"],
+    "experimentalDecorators": true,
+    "target": "ES2019"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
