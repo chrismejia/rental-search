@@ -1,5 +1,3 @@
-import { setupStatusDropdown } from "./setupStatusDropdown";
-
 type FormSubmitEvent = GoogleAppsScript.Events.FormsOnFormSubmit;
 
 function onFormSubmit(event: FormSubmitEvent) {
@@ -7,6 +5,4 @@ function onFormSubmit(event: FormSubmitEvent) {
   const lastRow = sheet.getLastRow();
 
   console.log(JSON.stringify(event, null, 2));
-
-  setupStatusDropdown(sheet, lastRow);
 }
